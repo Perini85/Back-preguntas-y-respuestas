@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210201033558_V.2.cs" />
+    <Compile Remove="Migrations\20210201033558_V.2.Designer.cs" />
+    <Compile Remove="Migrations\20210201034428_Actualizar.cs" />
+    <Compile Remove="Migrations\20210201034428_Actualizar.Designer.cs" />
+    <Compile Remove="Migrations\20210201034715_rr.cs" />
+    <Compile Remove="Migrations\20210201034715_rr.Designer.cs" />
+    <Compile Remove="Migrations\20210201035402_prueba3.cs" />
+    <Compile Remove="Migrations\20210201035402_prueba3.Designer.cs" />
+    <Compile Remove="Migrations\20210201035924_v.76.cs" />
+    <Compile Remove="Migrations\20210201035924_v.76.Designer.cs" />
+    <Compile Remove="Migrations\20210201040533_v.77.cs" />
+    <Compile Remove="Migrations\20210201040533_v.77.Designer.cs" />
+    <Compile Remove="Migrations\20210201040827_v.78.cs" />
+    <Compile Remove="Migrations\20210201040827_v.78.Designer.cs" />
+    <Compile Remove="Migrations\20210201042330_v.787.cs" />
+    <Compile Remove="Migrations\20210201042330_v.787.Designer.cs" />
+    <Compile Remove="Migrations\20210201043909_v3.19.cs" />
+    <Compile Remove="Migrations\20210201043909_v3.19.Designer.cs" />
+    <Compile Remove="Migrations\20210201104533_test.cs" />
+    <Compile Remove="Migrations\20210201104533_test.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DryIoc.dll" Version="4.5.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="5.2.8" />
+  </ItemGroup>
+
+
+</Project>
